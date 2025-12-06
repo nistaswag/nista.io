@@ -1,0 +1,24 @@
+{
+  "base_url": "https://ilustrative.ru",
+  "scan_start": "2025-12-06T19:50:56.735132",
+  "scan_end": "2025-12-06T19:52:18.672221",
+  "duration_seconds": 81.937089,
+  "total_pages_scanned": 15,
+  "successful_scans": 15,
+  "failed_scans": 0,
+  "unique_urls_found": 15,
+  "redirects_count": 0,
+  "file_types_distribution": {
+    "html": 10,
+    "css": 2,
+    "png": 3
+  },
+  "database_vulnerabilities": [],
+  "downloaded_files": 0,
+  "settings": {
+    "max_pages": 1000,
+    "delay": 5.0,
+    "timeout": 30,
+    "max_threads": 20
+  }
+}

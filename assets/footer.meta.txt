@@ -1,0 +1,17 @@
+URL: https://ilustrative.ru/assets/footer.css
+Status: 200
+Content-Type: text/css
+File-Extension: css
+Size: 2790 bytes
+Scan-Time: 2025-12-06T19:51:29.266536
+Headers:
+{
+  "Server": "nginx/1.28.0",
+  "Date": "Sat, 06 Dec 2025 18:51:31 GMT",
+  "Content-Type": "text/css",
+  "Last-Modified": "Mon, 15 Sep 2025 21:09:44 GMT",
+  "Transfer-Encoding": "chunked",
+  "Connection": "keep-alive",
+  "ETag": "W/\"68c88098-ae6\"",
+  "Content-Encoding": "gzip"
+}

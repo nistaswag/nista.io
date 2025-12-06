@@ -1,0 +1,17 @@
+URL: https://ilustrative.ru/assets/img/sbp.png
+Status: 200
+Content-Type: image/png
+File-Extension: png
+Size: 33131 bytes
+Scan-Time: 2025-12-06T19:52:08.213971
+Headers:
+{
+  "Server": "nginx/1.28.0",
+  "Date": "Sat, 06 Dec 2025 18:52:09 GMT",
+  "Content-Type": "image/png",
+  "Content-Length": "33131",
+  "Last-Modified": "Mon, 15 Sep 2025 21:09:45 GMT",
+  "Connection": "keep-alive",
+  "ETag": "\"68c88099-816b\"",
+  "Accept-Ranges": "bytes"
+}

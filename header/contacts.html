@@ -1,0 +1,340 @@
+
+
+1
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="/config/config.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+        <link rel="icon" type="image/png" href="/assets/img/logo.png" sizes="32x32" />
+    <title>Ilustrative | Контакты</title>
+  </head>
+ <body class="bg-[var(--background)]">
+  <div class="main-content">
+    <nav class="flex justify-center">
+      <div
+        class="w-[1322px] h-[515px] bg-[var(--primary)]/10 justify-center absolute rounded-full blur-element top-[-30%] -z-1 fixed pulse"
+      ></div>
+      <div
+        class="flex bg-[#000000]/10 backdrop-blur-md max-w-[700px] w-full py-4 px-9 rounded-[18px] border border-[#79727C]/20 mt-15 fixed items-center justify-between z-50"
+      >
+        <a class="item" href="/"
+          ><img class="w-[25px] h-[20px]" src="/assets/img/logo.png" alt="logo"
+        /></a>
+        <div
+          class="hidden md:flex flex-wrap gap-6 items-center text-white/70 font-[Unbounded] font-light text-sm"
+        >
+          <a
+            href="/"
+          class="relative after:absolute after:left-[9px] after:right-[9px] after:-bottom-1 after:h-[2px] after:bg-white after:opacity-0 transition-all after:duration-300 hover:after:opacity-100 hover:text-white item"
+            >
+            Главная
+          </a>
+          <a
+            href="/header/review"
+            class="relative after:absolute after:left-[9px] after:right-[9px] after:-bottom-1 after:h-[2px] after:bg-white after:opacity-0 transition-all after:duration-300 hover:after:opacity-100 hover:text-white item"
+          >
+            Обзор
+          </a>
+          <a
+            href="/header/contacts"
+                class="text-white relative after:absolute after:left-[9px] after:right-[9px] after:-bottom-1 after:h-[2px] after:bg-white after:opacity-100 transition-all after:duration-300 item"
+        >
+            Контакты
+          </a>
+          <a
+            href="/header/adva"
+           class="relative after:absolute after:left-[9px] after:right-[9px] after:-bottom-1 after:h-[2px] after:bg-white after:opacity-0 transition-all after:duration-300 hover:after:opacity-100 hover:text-white item"
+          >
+            Преимущества
+          </a>
+          <div
+            class="flex items-center text-[color-mix(in_srgb,var(--secondary)_70%,transparent)] hover:text-white transition-all duration-300 item"
+          >
+            <i data-lucide="lock" class="w-5 h-5"></i>
+                          <a href="/login" class="ml-3">Авторизация</a>
+                      </div>
+        </div>
+        <button id="burger" class="md:hidden text-white">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </nav>
+    <div
+      id="mobileMenu"
+      class="fixed inset-0 flex items-center justify-center bg-black/50 backdrop-blur-md transition-opacity duration-300 opacity-0 pointer-events-none z-50"
+    >
+      <div
+        class="modal-content bg-[#000000]/80 border border-[#79727C]/20 rounded-2xl p-8 w-[90%] max-w-[400px] text-center shadow-xl transition-transform duration-300 scale-95"
+      >
+        <button
+          id="closeMenu"
+          class="absolute top-5 right-5 text-white/70 hover:text-white transition cursor-pointer"
+        >
+          <i data-lucide="x" class="w-6 h-6"></i>
+        </button>
+        <nav class="flex flex-col gap-6 text-white font-[SF-Pro-text] text-lg">
+          <a href="/" class="hover:text-[var(--secondary)] transition">Главная</a>
+          <a href="/header/review" class="hover:text-[var(--secondary)] transition">Обзор</a>
+          <a href="/header/contacts" class="hover:text-[var(--secondary)] transition">Контакты</a>
+          <a href="/header/adva" class="hover:text-[var(--secondary)] transition">Преимущества</a>
+                      <a href="/login" class="hover:text-[var(--secondary)] transition">Авторизация</a>
+                  </nav>
+      </div>
+    </div>
+  </div>
+    <div class="h-screen flex items-center justify-center">
+      <div
+        class="relative max-w-[1060px] w-full mx-auto flex justify-center items-center bg-black/5 border border-[#79727C]/20 overflow-hidden rounded-xl px-[60px] py-[70px] hover:translate-y-[-5px] transition-all duration-300"
+      >
+
+        <div
+          class="flex flex-col items-center text-center gap-[30px] relative z-10"
+        >
+          <div class="flex flex-col items-center gap-[10px]">
+            <span
+              class="text-transparent bg-gradient-to-r from-[var(--primary)] to-[var(--gradient)] bg-clip-text text-[32px] font-[Unbounded] font-bold"
+            >
+              Ilustrative            </span>
+            <span
+              class="text-transparent bg-gradient-to-r from-[#FFFFFF] to-[#ffffff] bg-clip-text text-[32px] font-[Unbounded] font-medium"
+            >
+              Наши контакты
+            </span>
+            <span
+              class="text-white/40 text-[16px] font-[SF-Pro-Text] text-center leading-[1.4]"
+            >
+              Мы на связи, при любой проблеме можете <br />
+              написать нашей команде, мы поможем.
+            </span>
+          </div>
+
+          <div class="grid grid-cols-2 gap-[20px] mt-[20px]">
+            <a href="https://discord.gg/hmNBgrsvWP">
+              <div
+                class="bg-black/5 border border-[#79727C]/20 rounded-[16px] py-[30px] px-[48px] flex flex-col items-center gap-[8px] hover:translate-y-[-5px] transition-all duration-300"
+              >
+                <i
+                  data-lucide="mail"
+                  class="w-6 h-6 stroke-[var(--secondary)]"
+                ></i>
+                <span
+                  class="font-[Unbounded] text-white text-[16px] font-medium"
+                  >Discord</span
+                >
+                <span
+                  class="font-[SF-Pro-Text] text-white/40 text-[15px] font-regular"
+                  >https://discord.gg/hmNBgrsvWP</span
+                >
+              </div>
+              
+            </a>
+            <a href="https://t.me/ilustrative">
+              <div
+                class="bg-black/5 border border-[#79727C]/20 rounded-[16px] py-[30px] px-[48px] flex flex-col items-center gap-[8px] hover:translate-y-[-5px] transition-all duration-300"
+              >
+                <svg
+                  viewBox="0 0 48 48"
+                  width="24px"
+                  height="24px"
+                  fill="var(--secondary)"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="TGbgCarrier" stroke-width="0"></g>
+                  <g
+                    id="TGtracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="TG">
+                    <path
+                      d="M41.4193 7.30899C41.4193 7.30899 45.3046 5.79399 44.9808 9.47328C44.8729 10.9883 43.9016 16.2908 43.1461 22.0262L40.5559 39.0159C40.5559 39.0159 40.3401 41.5048 38.3974 41.9377C36.4547 42.3705 33.5408 40.4227 33.0011 39.9898C32.5694 39.6652 24.9068 34.7955 22.2086 32.4148C21.4531 31.7655 20.5897 30.4669 22.3165 28.9519L33.6487 18.1305C34.9438 16.8319 36.2389 13.8019 30.8426 17.4812L15.7331 27.7616C15.7331 27.7616 14.0063 28.8437 10.7686 27.8698L3.75342 25.7055C3.75342 25.7055 1.16321 24.0823 5.58815 22.459C16.3807 17.3729 29.6555 12.1786 41.4193 7.30899Z"
+                    ></path>
+                  </g>
+                </svg>
+
+                <span
+                  class="font-[Unbounded] text-white text-[16px] font-medium"
+                  >Telegram</span
+                >
+                <span
+                  class="font-[SF-Pro-Text] text-white/40 text-[15px] font-regular"
+                  >https://t.me/ilustrative</span
+                >
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+      <footer class="bg-[#000000]/10 border-t border-[#79727C]/20 pt-12 pb-8 relative z-10">
+        <div class="max-w-[1200px] mx-auto px-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <img src="/assets/img/logo.png" alt="Logo" class="w-6 h-5 opacity-60 mr-2 -mt-4">
+                <span class="text-[var(--primary)] font-[Unbounded] font-semibold text-lg mb-4">Ilustrative</span>
+              </div>
+              <p class="text-white/60 font-[Unbounded] text-sm mb-4 leading-relaxed">
+                Наш продукт не связан с MojangAB<br>
+                все средства идут на развитие проекта.
+              </p>
+              <p class="text-white/70 font-[Unbounded] text-sm">
+                <span class="text-[var(--secondary)]">Email:</span> illustrativeclient166@gmail.com              </p>
+            </div>
+            <div class="flex flex-col">
+              <h4 class="text-white font-[Unbounded] font-semibold text-base mb-4">Навигация</h4>
+              <nav class="flex flex-col gap-3">
+                <a href="/" class="text-white/60 hover:text-[var(--secondary)] transition-all duration-300 font-[Unbounded] text-sm">
+                  Главная
+                </a>
+                <a href="/product" class="text-white/60 hover:text-[var(--secondary)] transition-all duration-300 font-[Unbounded] text-sm">
+                  Товары
+                </a>
+                <a href="/header/adva" class="text-white/60 hover:text-[var(--secondary)] transition-all duration-300 font-[Unbounded] text-sm">
+                  Наши качества
+                </a>
+              </nav>
+            </div>
+            <div class="flex flex-col">
+              <h4 class="text-white font-[Unbounded] font-semibold text-base mb-4">Документы</h4>
+              <nav class="flex flex-col gap-3">
+                <a href="/terms" class="text-white/60 hover:text-[var(--secondary)] transition-all duration-300 font-[Unbounded] text-sm">
+                  Пользовательское соглашение
+                </a>
+                <a href="/privacy" class="text-white/60 hover:text-[var(--secondary)] transition-all duration-300 font-[Unbounded] text-sm">
+                  Обработка данных
+                </a>
+              </nav>
+            </div>
+            <div class="flex flex-col">
+              <h4 class="text-white font-[Unbounded] font-semibold text-base mb-4">Наши социальные сети</h4>
+              <p class="text-white/60 font-[Unbounded] text-sm mb-4 leading-relaxed">
+                Здесь вы можете посмотреть обзор на dlc.
+              </p>
+              <a href="https://www.youtube.com/embed/deTYRPLjx0o?si=TToiHCwAhAD3-wTb" class="text-white/60 hover:text-[var(--secondary)] transition-all duration-300">
+                <i data-lucide="youtube" class="w-5 h-5"></i>
+              </a>
+            </div>
+          </div>
+          <div class="border-t border-[#79727C]/20 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center">
+            <p class="text-white/40 font-[Unbounded] text-sm flex items-center">
+              © 2025 Ilustrative. Все права защищены. Копирование сайта запрещено.
+            </p>
+            <div class="flex items-center mt-4 md:mt-0">
+              <img src="/assets/img/logo.png" alt="Logo" class="w-6 h-5 opacity-60">
+              <span class="text-white/60 font-[Unbounded] text-sm ml-2">Ilustrative</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    <script>
+      lucide.createIcons();
+
+
+
+      const burger = document.getElementById("burger");
+      const mobileMenu = document.getElementById("mobileMenu");
+      const modalContent = mobileMenu.querySelector(".modal-content");
+      const closeMenu = document.getElementById("closeMenu");
+
+      burger.addEventListener("click", () => {
+        mobileMenu.classList.remove("opacity-0", "pointer-events-none");
+        mobileMenu.classList.add("opacity-100");
+
+        modalContent.classList.remove("scale-95");
+        modalContent.classList.add("scale-100");
+      });
+
+      closeMenu.addEventListener("click", close);
+
+      mobileMenu.addEventListener("click", (e) => {
+        if (e.target === mobileMenu) {
+          close();
+        }
+      });
+
+      function close() {
+        mobileMenu.classList.add("opacity-0", "pointer-events-none");
+        mobileMenu.classList.remove("opacity-100");
+
+        modalContent.classList.add("scale-95");
+        modalContent.classList.remove("scale-100");
+      }
+
+  document.addEventListener('DOMContentLoaded', () => {
+      const burger = document.getElementById('burger');
+      const mobileMenu = document.getElementById('mobileMenu');
+      const closeMenu = document.getElementById('closeMenu');
+      const menuLinks = mobileMenu.querySelectorAll('a');
+
+      burger.addEventListener('click', () => {
+        mobileMenu.classList.remove('opacity-0', 'pointer-events-none');
+        mobileMenu.classList.add('opacity-100', 'pointer-events-auto');
+        mobileMenu.querySelector('.modal-content').classList.remove('scale-95');
+        mobileMenu.querySelector('.modal-content').classList.add('scale-100');
+      });
+
+      closeMenu.addEventListener('click', () => {
+        mobileMenu.classList.add('opacity-0', 'pointer-events-none');
+        mobileMenu.classList.remove('opacity-100', 'pointer-events-auto');
+        mobileMenu.querySelector('.modal-content').classList.add('scale-95');
+        mobileMenu.querySelector('.modal-content').classList.remove('scale-100');
+      });
+
+      menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('opacity-0', 'pointer-events-none');
+          mobileMenu.classList.remove('opacity-100', 'pointer-events-auto');
+          mobileMenu.querySelector('.modal-content').classList.add('scale-95');
+          mobileMenu.querySelector('.modal-content').classList.remove('scale-100');
+        });
+      });
+    });
+
+      const buybtn = document.getElementById("buyBTN");
+      const buyModal = document.getElementById("mobileMenu");
+      const buyModalContent = mobileMenu.querySelector(".modal-content");
+      const buyModalClose = document.getElementById("closeMenu");
+
+      burger.addEventListener("click", () => {
+        mobileMenu.classList.remove("opacity-0", "pointer-events-none");
+        mobileMenu.classList.add("opacity-100");
+
+        modalContent.classList.remove("scale-95");
+        modalContent.classList.add("scale-100");
+      });
+
+      closeMenu.addEventListener("click", close);
+
+      mobileMenu.addEventListener("click", (e) => {
+        if (e.target === mobileMenu) {
+          close();
+        }
+      });
+
+      function close() {
+        mobileMenu.classList.add("opacity-0", "pointer-events-none");
+        mobileMenu.classList.remove("opacity-100");
+
+        modalContent.classList.add("scale-95");
+        modalContent.classList.remove("scale-100");
+      }
+    </script>
+  </body>
+</html>

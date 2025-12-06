@@ -1,0 +1,17 @@
+URL: https://ilustrative.ru/assets/img/funpay.png
+Status: 200
+Content-Type: image/png
+File-Extension: png
+Size: 55428 bytes
+Scan-Time: 2025-12-06T19:52:13.670503
+Headers:
+{
+  "Server": "nginx/1.28.0",
+  "Date": "Sat, 06 Dec 2025 18:52:15 GMT",
+  "Content-Type": "image/png",
+  "Content-Length": "55428",
+  "Last-Modified": "Mon, 15 Sep 2025 21:09:44 GMT",
+  "Connection": "keep-alive",
+  "ETag": "\"68c88098-d884\"",
+  "Accept-Ranges": "bytes"
+}
